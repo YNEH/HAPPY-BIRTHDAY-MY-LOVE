@@ -1,5 +1,5 @@
 #us-section {
-  background: linear-gradient(to right, #89253e, #3a6186);
+  background-image: linear-gradient(120deg, #c039ff 0%, #1ec6be 100%);
   grid-template-columns: auto;
   justify-content: center;
   box-shadow: 0 0 20px;

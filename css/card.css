@@ -56,10 +56,11 @@
   width: 300px;
 }
 
-.card-text {
+.card-text,
+.card-salutation {
   font-family: "Poppins", sans-serif;
-  font-size: 1.25rem;
   letter-spacing: 1px;
+  font-size: 1.3rem;
   font-weight: 300;
   color: #e6e6e6;
 }

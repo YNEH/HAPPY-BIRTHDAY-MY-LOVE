@@ -3,7 +3,7 @@
 /*-----------------------------------------------------------*/
 
 #colorful-section {
-  background: linear-gradient(to right, #1565c0, #b92b27);
+  background: linear-gradient(45deg, #1565c0, #b92b27);
   transition: padding 500ms height 500ms;
   grid-template-columns: repeat(3, auto);
   justify-content: center;
@@ -66,7 +66,7 @@
 }
 
 .colorful-controller {
-  transition: opacity 450ms;
+  transition: scale 450ms;
   cursor: pointer;
   margin: 0 auto;
   opacity: 0.5;
@@ -114,7 +114,7 @@
 }
 
 .colorful-controller:hover {
-  opacity: 1;
+  scale: 1.2;
 }
 
 .colorful-button:hover {
