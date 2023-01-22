@@ -1,0 +1,115 @@
+/*-----------------------------------------------------------*/
+/*----------------------- CARD STYLES -----------------------*/
+/*-----------------------------------------------------------*/
+
+#card-section {
+  padding: 4rem 0;
+}
+
+.card {
+  background: linear-gradient(to right, #da1b71, #e03d1c);
+  transition: translate 450ms;
+  grid-template-columns: auto;
+  box-shadow: 10px 5px #000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  width: 900px;
+  gap: 1.5rem;
+}
+
+.card-divider {
+  border-bottom: 10px dotted #ffffff40;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/*------------------------------------------------*/
+/*-------------------- HEADER --------------------*/
+/*------------------------------------------------*/
+
+.card-header {
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+}
+
+.card-header-title {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 10px 5px #000;
+  text-align: left;
+  font-weight: 600;
+  font-size: 7rem;
+  line-height: 1;
+  color: #fff;
+}
+
+.card-image {
+  box-shadow: 10px 5px #000;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+/*--------------------------------------------*/
+/*------------------ BUTTON ------------------*/
+/*--------------------------------------------*/
+
+.card-button {
+  transition: background-color 450ms, box-shadow 250ms, translate 250ms;
+  grid-template-columns: repeat(2, auto);
+  background-color: #00008b;
+  box-shadow: 10px 5px #000;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+  align-items: center;
+  border-radius: 40px;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.card-button-text {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.card-button-image {
+  width: 40px;
+}
+
+/*---------------------------------------------*/
+/*---------------- TRANSITIONS ----------------*/
+/*---------------------------------------------*/
+
+.card:hover {
+  translate: 0 -10px;
+}
+
+.card-button:hover {
+  background-color: #0000c3;
+}
+
+.card-button:active {
+  box-shadow: 0 0 0;
+  translate: 0 5px;
+}
+
+/*----------------------------------------------*/
+/*----------------- END OF CSS -----------------*/
+/*----------------------------------------------*/

@@ -1,0 +1,73 @@
+#us-section {
+  background: linear-gradient(to right, #89253e, #3a6186);
+  grid-template-columns: auto;
+  justify-content: center;
+  box-shadow: 0 0 20px;
+  align-items: center;
+  border-radius: 40px;
+  overflow: hidden;
+  display: grid;
+  height: 0px;
+  width: 98%;
+  gap: 1rem;
+}
+
+#us-section > * {
+  opacity: 0;
+}
+
+.us-section-title {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 10px 5px #000;
+  text-align: center;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 7rem;
+  cursor: default;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.us-carousel {
+  grid-template-columns: repeat(7, auto);
+  justify-content: flex-start;
+  padding: 2rem 2rem 2rem 0;
+  align-items: center;
+  border-radius: 40px;
+  overflow-y: hidden;
+  margin: 0 auto;
+  display: grid;
+  width: 1032px;
+  gap: 2rem;
+}
+
+.us-image {
+  transition: translate 450ms;
+  box-shadow: 10px 5px #000;
+  border-radius: 20px;
+  object-fit: cover;
+  cursor: pointer;
+  height: 500px;
+  width: 500px;
+}
+
+/*-------------------------------------*/
+/*------------- SCROLLING -------------*/
+/*-------------------------------------*/
+
+.us-carousel::-webkit-scrollbar {
+  width: 2vw;
+}
+
+.us-carousel::-webkit-scrollbar-thumb {
+  background: linear-gradient(-45deg, #a200ff, #3300ff);
+  border-radius: 40px;
+}
+
+/*---------------------------------------*/
+/*------------- TRANSITIONS -------------*/
+/*---------------------------------------*/
+
+.us-image:hover {
+  translate: 0 -10px;
+}

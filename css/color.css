@@ -1,0 +1,131 @@
+/*-----------------------------------------------------------*/
+/*--------------------- COLORFUL STYLES ---------------------*/
+/*-----------------------------------------------------------*/
+
+#colorful-section {
+  background: linear-gradient(to right, #1565c0, #b92b27);
+  transition: padding 500ms height 500ms;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  box-shadow: 0 0 20px;
+  border-radius: 40px;
+  align-items: center;
+  overflow: hidden;
+  display: grid;
+  height: 0px;
+  width: 98%;
+  gap: 1rem;
+}
+
+#colorful-section > * {
+  opacity: 0;
+}
+
+.colorful-section-title {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 10px 5px #000;
+  grid-column: span 3;
+  text-align: center;
+  width: fit-content;
+  font-size: 5rem;
+  font-weight: 600;
+  cursor: default;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.colorful-carousel {
+  grid-template-columns: repeat(3, auto);
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+  display: grid;
+  width: 1228px;
+}
+
+.colorful-slide {
+  grid-template-columns: repeat(2, auto);
+  transition: translate 800ms;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  padding: 2rem;
+  gap: 4rem;
+}
+
+.colorful-image {
+  box-shadow: 10px 5px #000;
+  transition: translate 450ms;
+  object-position: 0 0;
+  border-radius: 40px;
+  object-fit: cover;
+  cursor: pointer;
+  height: 650px;
+  width: 550px;
+}
+
+.colorful-controller {
+  transition: opacity 450ms;
+  cursor: pointer;
+  margin: 0 auto;
+  opacity: 0.5;
+  width: 60px;
+}
+
+/*------------------------------------------------*/
+/*-------------------- BUTTON --------------------*/
+/*------------------------------------------------*/
+
+.colorful-button {
+  transition: background-color 450ms, box-shadow 250ms, translate 250ms;
+  grid-template-columns: repeat(2, auto);
+  background-color: #c70046;
+  box-shadow: 10px 5px #000;
+  justify-content: center;
+  padding: 0.5rem 0rem;
+  align-items: center;
+  border-radius: 40px;
+  grid-column: span 3;
+  margin: 0 auto;
+  display: grid;
+  gap: 0.65rem;
+  width: 600px;
+}
+
+.colorful-button-text {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.colorful-button-image {
+  width: 40px;
+}
+
+/*----------------------------------------------*/
+/*----------------- TRANSITION -----------------*/
+/*----------------------------------------------*/
+
+.colorful-image:hover {
+  translate: 0 -10px;
+}
+
+.colorful-controller:hover {
+  opacity: 1;
+}
+
+.colorful-button:hover {
+  background-color: #ff0059;
+}
+
+.colorful-button:active {
+  box-shadow: 0 0 0;
+  translate: 0 5px;
+}
+
+/*----------------------------------------------------*/
+/*-------------------- END OF CSS --------------------*/
+/*----------------------------------------------------*/

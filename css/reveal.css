@@ -1,0 +1,36 @@
+.reveal {
+  animation: RevealSection 1250ms forwards ease-in-out;
+}
+
+.reveal-element {
+  animation: RevealElements 1000ms forwards ease-in-out;
+}
+
+@keyframes RevealSection {
+  from {
+    margin: 0 auto;
+    height: 0px;
+    opacity: 0;
+  }
+
+  to {
+    margin: 0 auto 4rem auto;
+    padding: 3rem 0;
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes RevealElements {
+  from {
+    pointer-events: none;
+    translate: 0 10px;
+    opacity: 0;
+  }
+
+  to {
+    pointer-events: all;
+    translate: 0 0;
+    opacity: 1;
+  }
+}

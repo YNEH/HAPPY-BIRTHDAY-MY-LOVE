@@ -1,0 +1,19 @@
+@import url("./css/reveal.css");
+
+@import url("./css/card.css");
+@import url("./css/pics.css");
+@import url("./css/color.css");
+@import url("./css/us.css");
+
+* {
+  scroll-behavior: smooth;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to right, #fbc7d4, #9796f0);
+  position: relative;
+  z-index: -2;
+}
